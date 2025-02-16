@@ -1,0 +1,95 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# =======================
+# ✅ Node.js Dependencies
+# =======================
+node_modules/
+
+# =======================na
+# ✅ Expo
+# =======================
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# =======================
+# ✅ Native Files
+# =======================
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# =======================
+# ✅ Metro (React Native)
+# =======================
+.metro-health-check*
+
+# =======================
+# ✅ Debug Logs
+# =======================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# =======================
+# ✅ macOS System Files
+# =======================
+.DS_Store
+*.pem
+
+# =======================
+# ✅ Local Environment Files (Hides Secrets)
+# =======================
+.env
+.env*.local
+.env*.production
+.env*.development
+
+# =======================
+# ✅ TypeScript Build Info
+# =======================
+*.tsbuildinfo
+
+# =======================
+# ✅ Python & FastAPI Backend
+# =======================
+# Virtual environment
+env/
+venv/
+
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Database files (if using SQLite for testing)
+*.sqlite3
+
+# VS Code settings (Optional)
+.vscode/
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# =======================
+# ✅ PostgreSQL & DB Data Dumps
+# =======================
+*.sql
+*.dump
+*.pgpass
+pgdata/
+
+# =======================
+# ✅ Pytest & Test Files
+# =======================
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+pytest_cache/
